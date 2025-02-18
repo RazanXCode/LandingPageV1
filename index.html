@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cady Headphones</title>
+</head>
+
+<body>
+    <nav>
+        <img src="./assets/CadyLogo.jpg" alt="systemLogo">
+        <ul>
+            <li>
+                <a href="">Products</a>
+            </li>
+
+            <li>
+                <a href="">About Us</a>
+            </li>
+
+            <li>
+                <a href="">Contact Us</a>
+            </li>
+        </ul>
+    </nav><br />
+
+
+    <section>
+        <h1>Hello User!</h1>
+        <h2>To purchase a headphone, please complete the registration form below.</h2>
+    </section> <br />
+
+    <main>
+        <form method="post" id="userReg">
+            <label for="nameInput">Name</labl>
+                <input type="text" id="nameInput" name="name" placeholder="Enter your full name" />
+                <label for="emailInput">Email</labl>
+                    <input type="email" id="emailInput" name="email" placeholder="Enter a valid email" />
+                    <label for="numberInput">Phone Number</labl>
+                        <input type="tel" id="numberInput" name="phoneNumber"
+                            placeholder="Enter a valid Phone number" />
+                        <label for="passwordInput">Password (Minimum 8 Charecters)</labl>
+                            <input type="password" id="passwordInput" name="password"
+                                placeholder="Enter a valid Password" />
+                            <button type="submit" form="userReg" id="submitBtn" name="submitBtn">Submit</button>
+        </form>
+
+        <a href="">Read our Terms and Services</a>
+        <fieldset>
+            <legend>Do you agree on our Terms and Services? </legend>
+            <input type="radio" id="radioBtn1" name="radioBtn" />
+            <lable for="agree">Agree</lable>
+            <input type="radio" id="radioBtn2" name="radioBtn" />
+            <lable for="disagree">Disagree</lable>
+        </fieldset>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cady Headphones. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
